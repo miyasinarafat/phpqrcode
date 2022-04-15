@@ -1,17 +1,25 @@
 {
-    "name": "iarafat/phpqrcode",
+    "name": "miyasinarafat/phpqrcode",
     "description": "PHP8.0+ QR Code generator library",
     "keywords": [
-        "iarafat",
+        "miyasinarafat",
         "phpqrcode"
     ],
-    "homepage": "https://github.com/iarafat/phpqrcode",
+    "homepage": "https://github.com/miyasinarafat/phpqrcode",
     "license": "MIT",
     "authors": [
         {
+            "name": "Alexandre Assouad",
+            "homepage": "https://github.com/t0k4rt"
+        },
+        {
             "name": "MD Iyasin Arafat",
             "email": "miyasinarafat@gmail.com",
-            "role": "Developer"
+            "homepage": "https://github.com/miyasinarafat"
+        },
+        {
+            "name": "Contributors",
+            "homepage":"https://github.com/miyasinarafat/phpqrcode/graphs/contributors"
         }
     ],
     "require": {
@@ -24,12 +32,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Iarafat\\QRCode\\": "src"
+            "miyasinarafat\\QRCode\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Iarafat\\QRCode\\Tests\\": "tests"
+            "miyasinarafat\\QRCode\\Tests\\": "tests"
         }
     },
     "scripts": {

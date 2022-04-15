@@ -1,6 +1,6 @@
 <?php
 
-namespace Iarafat\QRCode;
+namespace miyasinarafat\QRCode;
 
 class QRCodeClass
 {

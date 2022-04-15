@@ -1,6 +1,6 @@
 <?php
 
-namespace Iarafat\QRCode\Tests;
+namespace miyasinarafat\QRCode\Tests;
 
 use PHPUnit\Framework\TestCase;
 
