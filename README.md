@@ -37,7 +37,7 @@ Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed re
 Please see [CONTRIBUTING](.github/CONTRIBUTING.md) for details.
 
 ## Security Vulnerabilities
-If you discover any security related issues, please email [MD Iyasin Arafat](mailto:miyasinarafat@gmail.com?subject=[GitHub]%PHPQRCODE%20Security%20Vulnerabilities) instead of using the issue tracker.
+If you discover any security related issues, please email [MD Iyasin Arafat](mailto:miyasinarafat@gmail.com?subject=[GitHub]%20PHPQRCODE%20Security%20Vulnerabilities) instead of using the issue tracker.
 
 ## Credits
 - This package migrated [Alexandre Assouad's](https://github.com/t0k4rt) php qr code library [`phpqrcode`](https://github.com/t0k4rt/phpqrcode) and licensed under the `GNU LESSER GENERAL PUBLIC LICENSE`.
