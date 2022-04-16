@@ -2,7 +2,7 @@
 > If you want to get update about this package then please became a `watchers` by clicking top right eye icon or subscribe to the [qrcodewave.com](https://qrcodewave.com) newsletter.
 
 [<img src="https://user-images.githubusercontent.com/16781160/163576166-6370186d-4dbe-4726-b988-bc8619c9989b.svg" />](https://qrcodewave.com)
-#### PHP8.0+ QR Code generator library
+#### PHP8+ QR Code generator library
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/miyasinarafat/phpqrcode.svg?style=flat-square)](https://packagist.org/packages/miyasinarafat/phpqrcode)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/iarafat/phpqrcode/run-tests?label=tests)](https://github.com/miyasinarafat/phpqrcode/actions?query=workflow%3ATests+branch%3Amaster)
