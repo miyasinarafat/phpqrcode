@@ -3,9 +3,9 @@
 namespace miyasinarafat\QRCode;
 
 use Exception;
-use miyasinarafat\QRCode\Enums\EncoderConfigEnum;
+use miyasinarafat\QRCode\Consts\QRCodeEncoderConfigConst;
 
-class QRCodeTools
+final class QRCodeTools
 {
     /**
      * @param array $frame
@@ -32,7 +32,7 @@ class QRCodeTools
      */
     public static function log(string $outfile, string $error, bool $logDir = false): void
     {
-        if (EncoderConfigEnum::QR_LOG_DIR === false && $logDir === false) {
+        if (QRCodeEncoderConfigConst::QR_LOG_DIR === false && $logDir === false) {
             return;
         }
 
@@ -56,7 +56,7 @@ class QRCodeTools
         [$uses, $sec] = explode(" ", microtime());
         $time = ((float)$uses + (float)$sec);
 
-        if (!isset($GLOBALS['qr_time_bench'])) {
+        if (! isset($GLOBALS['qr_time_bench'])) {
             $GLOBALS['qr_time_bench'] = [];
         }
 
@@ -106,9 +106,11 @@ class QRCodeTools
             $handle = fopen($filenamePath, 'wb');
             fwrite($handle, $content);
             fclose($handle);
+
             return true;
         } catch (Exception $e) {
             echo 'Exception reçue : ', $e->getMessage(), "\n";
+
             return false;
         }
     }
