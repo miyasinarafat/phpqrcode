@@ -1,5 +1,5 @@
 > # This package is under development.
-> If you want to get updates about this package then please become a watcher by clicking the top right eye icon or subscribing to the [qrcodewave.com](https://qrcodewave.com)newsletter.
+> If you want to get updates about this package then please become a watcher by clicking the top right eye icon or subscribing to the [qrcodewave.com](https://qrcodewave.com) newsletter.
 [<img src="https://user-images.githubusercontent.com/16781160/163576166-6370186d-4dbe-4726-b988-bc8619c9989b.svg" />](https://qrcodewave.com)
 
 #### PHP8+ QR Code generator library
